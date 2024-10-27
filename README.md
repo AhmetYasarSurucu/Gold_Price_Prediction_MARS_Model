@@ -24,14 +24,18 @@ The project followed these steps:
 
    -pmethod = "forward" was used to perform forward selection to identify significant predictors.
 
-3.Model Performance Evaluation:
+3.	Model Performance Evaluation:
 
-- The model summary (summary) was examined to evaluate the significance of the coefficients.
-- Variable importance was calculated using the evimp function.
-  Predictions on test data were visualized to assess their alignment with actual values.
+  	-The model summary (summary) was examined to evaluate the significance of the coefficients.
+
+  	-Variable importance was calculated using the evimp function.
+
+  	-Predictions on test data were visualized to assess their alignment with actual values.
 
 5.	Visualization:
-o	Predictions and important variables were visualized using ggplot2 and plotmo packages.
+
+  	-Predictions and important variables were visualized using ggplot2 and plotmo packages.
+
 
 MARS Model Results
 Model Complexity and Performance
