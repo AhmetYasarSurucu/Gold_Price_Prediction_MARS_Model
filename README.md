@@ -67,17 +67,19 @@ Model Validation and Fit
 
 •	The Multiple R-squared is 0.9866, and the Adjusted R-squared is 0.9859, both showing high goodness of fit.
 Project Requirements
+
+
 To run this project, the following R packages are required:
 
-•	caret
+   •	caret
 
-•	earth
+   •	earth
 
-•	dplyr
+   •	dplyr
 
-•	readxl
+   •	readxl
 
-•	ggplot2
+   •	ggplot2
 
 Additionally, the dataset file Duzenlenmis_calısma_veri.csv should be included in the same directory as the project.
 
