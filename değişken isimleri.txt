@@ -1,0 +1,12 @@
+değişken isimleri:
+Altin_Vadeli_Islemleri_Gecmis_Verileri
+BIST_Gecmis_Verileri
+DAX_Gecmis_Verileri
+Dolar_Endeksi_Vadeli_Islemleri_Gecmis
+Dow_Jones_Industrial_Average_Gecmis
+Ham_Petrol_WTI_Vadeli_Islemleri_Gecmis
+NASDAQ_Composite_Gecmis_Verileri
+Nikkei_225_Gecmis_Verileri
+SP_500_Gecmis_Verileri
+SeriesReport_20241020044624_4fb4a4
+----------------------------------------------------------------
