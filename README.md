@@ -39,8 +39,11 @@ The project followed these steps:
 
 MARS Model Results
 Model Complexity and Performance
+
 •	The MARS model selected 10 terms from candidate models containing 14 terms, and six predictors out of 11. This shows that the model effectively minimized unnecessary complexity while selecting key variables.
+
 •	The model's R-squared value is 0.987, indicating it explains 98.7% of the variance in the Acilis_Altin variable. The Generalized R-Squared (GRSq) is also 0.987, demonstrating consistent, high accuracy.
+
 •	The model’s GCV (Generalized Cross-Validation) value is 2879, and RSS (Residual Sum of Squares) is 561390.
 Key Variables
 
@@ -48,9 +51,12 @@ Key Variables
 
 
 •	Analysis using evimp identified Acilis_Gumus, Acilis_NASDAQ, Acilis_Nikkei, Acilis_BIST, Reel_Faiz_Orani, and Acilis_Dolar as the most influential variables in predicting Acilis_Altin.
+
 •	Acilis_Gumus holds the highest importance score (100%), followed by Acilis_NASDAQ (39.2%) and Acilis_Nikkei (21.0%). This indicates that gold prices are strongly correlated with other commodities and some stock indices.
 Coefficient Significance
+
 •	Regression results show all coefficients have a p-value less than 0.001, meaning they are statistically significant. Acilis_Gumus, Acilis_NASDAQ, Acilis_Nikkei, and Reel_Faiz_Orani are among the variables with a significant effect on gold prices.
+
 •	For example, the coefficient of h(24180 - Acilis_Gumus) is -0.0738, suggesting that increases in silver price have a negative effect on gold price.
 Model Validation and Fit
 
@@ -58,13 +64,20 @@ Model Validation and Fit
 
 
 •	The F-statistic of the model is 1512, indicating that the model as a whole significantly explains variation in gold prices.
+
 •	The Multiple R-squared is 0.9866, and the Adjusted R-squared is 0.9859, both showing high goodness of fit.
 Project Requirements
 To run this project, the following R packages are required:
+
 •	caret
+
 •	earth
+
 •	dplyr
+
 •	readxl
+
 •	ggplot2
+
 Additionally, the dataset file Duzenlenmis_calısma_veri.csv should be included in the same directory as the project.
 
